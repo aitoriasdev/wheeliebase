@@ -1,0 +1,174 @@
+{
+  "breadcrumbs.enabled": false,
+  "console-ninja.featureSet": "Community",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'Cascadia Code PL', 'JetBrains Mono', 'Dank Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.indentation": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "editor.wordWrap": "on",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "errorLens.decorations": {
+    "errorMessage": {
+      "textDecoration": ";background:linear-gradient(to right, #ffdad6, #ffdad6);border:1.2px dashed #ba1a1a;border-radius:0.3em;padding:0 0.5ch;",
+      "color": "#ba1a1a"
+    },
+    "infoMessage": {
+      "textDecoration": ";background:linear-gradient(to right, #e1f5fe, #e1f5fe);border:1.2px dashed #ba1a1a;border-radius:0.3em;padding:0 0.5ch;",
+      "color": "#01579b"
+    },
+    "warningMessage": {
+      "textDecoration": ";background:linear-gradient(to right, #fffde7, #fffde7);border:1.2px dashed #ffc107;border-radius:0.3em;padding:0 0.5ch;",
+      "color": "#e65100"
+    }
+  },
+  "errorLens.codeLensTemplate": "[$count] $severity $message $source($code)",
+  "errorLens.enabled": true,
+  "errorLens.excludeBySource": ["eslint(no-unused-vars)"],
+  "errorLens.followCursor": "activeLine",
+  "errorLens.fontSize": "12px",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.fontWeight": "400",
+  "errorLens.gutterIconSet": "borderless",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconsFollowCursorOverride": true,
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.messageTemplate": "[$count] $severity $message $source($code)",
+  "errorLens.problemRangeDecorationEnabled": true,
+  "eslint.debug": true,
+  "eslint.validate": ["javascript", "typescript"],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.css": "css",
+    "*.mdx": "mdx"
+  },
+  "files.autoSave": "afterDelay",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/bazel-out/**": true,
+    "**/dist/**": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreLimitWarning": true,
+  "github.copilot.enable": {
+    "*": true
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+  "mdb.mcp.server": "autoStartDisabled",
+  "prettier.requireConfig": true,
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/bazel-out": true,
+    "**/dist": true,
+    ".history": true
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "'Cascadia Code PL', 'JetBrains Mono', 'Dank Mono', Consolas, 'Courier New', monospace",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "editorError.background": "#ffdad630",
+    "editorWarning.background": "#fffde730",
+    "editorInfo.background": "#e1f5fe30"
+  },
+  "workbench.editor.customLabels.patterns": {
+    "**/types/**": "${filename}.${extname} - types",
+    "**/pages/**": "${filename}.${extname} - pages",
+    "node_modules/**": "${filename}.${extname} - node_modules"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.historyBasedLanguageDetection": true,
+  "workbench.preferredDarkColorTheme": "Default Light Modern",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.enableStickyScroll": true,
+  "zenMode.hideActivityBar": false,
+  "workbench.colorTheme": "Default Dark+",
+  "remote.autoForwardPortsFallback": 0
+}
