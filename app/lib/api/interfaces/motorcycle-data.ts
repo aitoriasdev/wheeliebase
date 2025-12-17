@@ -1,4 +1,4 @@
-export type Motorcycle = {
+export interface Motorcycle {
   make: string;
   model: string;
   year: Date;
