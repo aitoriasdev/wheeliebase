@@ -21,6 +21,10 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/shared/*": ["app/ui/shared/*"],
+      "@/interfaces/*": ["app/lib/interfaces/*"],
+      "@/utils/*": ["app/lib/utils/*"],
+      "@/ui/*": ["app/ui/*"],
       "@/*": ["./*"]
     }
   },
