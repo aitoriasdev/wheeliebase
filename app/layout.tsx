@@ -1,6 +1,6 @@
-import type {Metadata} from 'next';
-import {inter} from '@/app/ui/fonts.ts';
-import '@/app/ui/global.css';
+import type { Metadata } from 'next';
+import { inter } from '@/app/ui/fonts.ts';
+import '@/app/globals.css';
 
 export const metadata: Metadata = {
   title: {

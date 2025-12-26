@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+:root {
+  --blue-suzuki: #00368f;
+  --red-yamaha: #f30711;
+}
+
+@theme {
+  --blue-suzuki: #00368f;
+  --red-yamaha: #f30711;
+}
+
+@theme inline {
+  --color-blue-suzuki: var(--blue-suzuki);
+  --color-red-yamaha: var(--red-yamaha);
+}
