@@ -1,8 +1,8 @@
 import NextAuth, {NextAuthOptions} from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
-import {supabase} from '@/app/lib/api/supabase.ts';
-import {SignInSchema} from '@/app/lib/zod.ts';
-import {getErrorMessage} from '@/app/lib/utils/getErrorMessage.ts';
+import {supabase} from '@/app/api/supabase';
+import {SignInSchema} from '@/app/lib/definitions.ts';
+import {getErrorMessage} from '@/utils/getErrorMessage.ts';
 
 export const authOptions: NextAuthOptions = {
   pages: {
