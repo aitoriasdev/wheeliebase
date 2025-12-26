@@ -1,15 +1,27 @@
 import {Suspense} from 'react';
-import Header from '@/app/ui/header.tsx';
-import {CardSkeleton} from '@/app/ui/skeletons/card-skeleton.tsx';
+import Loading from './loading.tsx';
+import Header from '@/ui/shared/header.tsx';
+import Footer from '@/ui/shared/footer.tsx';
+import {MotorcycleMake} from '@/app/ui/home/motorcycle-make.tsx';
+import motorcycleMakes from '@/app/lib/data/motorcycle-makes.json';
 
 export default async function Page() {
   return (
     <>
       <Header />
-      <main>
-        <Suspense fallback={<CardSkeleton />}></Suspense>
-        test
-      </main>
+      <div className="px-6 py-6">
+        <main className="grid grid-cols-3 gap-6">
+          <Suspense fallback={<Loading />}>
+            {motorcycleMakes.map((motorcycleMake) => (
+              <MotorcycleMake
+                key={`id-${motorcycleMake.make}`}
+                motorcycleMake={motorcycleMake}
+              />
+            ))}
+          </Suspense>
+        </main>
+      </div>
+      <Footer />
     </>
   );
 }
