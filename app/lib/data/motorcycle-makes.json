@@ -1,0 +1,47 @@
+[
+  {
+    "make": "Aprilia",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "BMW",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Harley-Davidson",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Honda",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Kawasaki",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Royal Enfield",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Suzuki",
+    "logo": "suzuki-logo.svg",
+    "color": "blue-suzuki"
+  },
+  {
+    "make": "Triumph",
+    "logo": "image.svg",
+    "color": ""
+  },
+  {
+    "make": "Yamaha",
+    "logo": "yamaha-logo.svg",
+    "color": "red-yamaha"
+  }
+]
