@@ -3,8 +3,8 @@
 import {useState} from 'react';
 import {useSearchParams} from 'next/navigation';
 import {signIn} from 'next-auth/react';
-import {Alert} from '../components/alert.tsx';
-import {Button} from '../components/button.tsx';
+import {Alert} from '../shared/alert.tsx';
+import {Button} from '../shared/button.tsx';
 
 export default function LoginForm() {
   const searchParams = useSearchParams();
